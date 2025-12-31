@@ -1,24 +1,26 @@
-# ⚖️ Case Law Search Tool (C++)
+# Case Law Search Tool
 
-A command-line tool for searching legal case summaries by keyword. Built in C++ as part of a programming application submission to **Salenga Law Firm**.
+A **C++ console application** for searching and exporting legal cases from a CSV file.  
+Users can search cases by keywords in the **title, summary, or tags**, view matching results, and export them to a file.
 
-## 📌 Features
+---
 
-- Load case records from a `.csv` file
-- Search by keyword across:
-  - Case title
-  - Summary
-  - Tags
-- Case-insensitive search
-- User-friendly terminal interface
-- Option to export search results to a `.txt` file
-- Graceful error handling (missing file, invalid input)
+## Features
 
-## 🧠 Technologies Used
+- 🔍 **Keyword Search** – Search cases by title, summary, or tags.  
+- ✅ **Case Display** – View matching cases in a readable format.  
+- 📤 **Export Results** – Save search results to a text file.  
+- 🧹 **Case-Insensitive** – Search ignores capitalization.  
+- 📝 **Simple CSV Input** – Load cases from a CSV file with headers.
 
-- Language: **C++**
-- Libraries: STL (`vector`, `string`, `fstream`, `algorithm`, `sstream`)
-- No external dependencies
+---
 
-## 📂 File Structure
+## Tech Stack
+
+- **Language:** C++  
+- **File Handling:** `<fstream>` for reading/writing CSV and output files  
+- **String Processing:** `<string>`, `<sstream>`, `<algorithm>`  
+- **Console UI:** `std::cin` and `std::cout` for interactive input/output
+
+
 
